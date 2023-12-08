@@ -1,0 +1,14 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="josoa">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.user" value="dazai"/>
+            <property name="jakarta.persistence.jdbc.password" value="dazai"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/josoa"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
